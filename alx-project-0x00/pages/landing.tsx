@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../components/Button";
-import Card from "../components/Card";
-import Pill from "../components/Pill";
+import Button from "@/components/Button";
+import Card from "@/components/Card";
+import Pill from "@/components/Pill";
 
 const Landing = () => {
   return (
