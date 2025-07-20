@@ -6,6 +6,7 @@ import Pill from "@/components/Pill";
 const Landing = () => {
   return (
     <main className="p-8 space-y-8">
+      {/* Buttons section (keep as is) */}
       <section>
         <h1 className="text-3xl font-bold mb-4">Buttons</h1>
         <div className="flex gap-4">
@@ -16,16 +17,18 @@ const Landing = () => {
         </div>
       </section>
 
+      {/* Pill component section */}
       <section>
         <h1 className="text-3xl font-bold mb-4">Pill Component</h1>
         <Pill title="Sample Pill" />
       </section>
 
+      {/* Card component section - MAKE SURE THIS EXISTS */}
       <section>
         <h1 className="text-3xl font-bold mb-4">Card Component</h1>
         <Card
           title="Card Title"
-          description="This is a sample card description to test the Card component."
+          description="This is a sample card description."
           buttonText="Learn More"
         />
       </section>
